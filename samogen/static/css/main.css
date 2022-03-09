@@ -1,0 +1,117 @@
+/* global start */
+:root{
+  --primary-color: #fff;
+  --dark-color: #141414;
+  --big-font:2rem;
+  --medium-font:1.3rem;
+  --normal-font:1rem;
+  --small-font:0.875rem;
+  padding: 50px;
+}
+
+
+*{
+  box-sizing:border-box;
+  width:100%;
+  height:100%;
+  position:relative;
+  padding:0;
+  margin:0
+}
+
+*,body,html {
+  position: relative;
+  padding: 0;
+  margin: 0;
+}
+
+.app * {
+    font-family: urw-din,sans-serif;
+}
+
+.app{
+  width:100%;
+  height:100%;
+  position:relative;
+  overflow-x: hidden;
+  overflow-y: scroll !important;
+}
+
+
+body,html{
+  display: block;
+  width:100%;
+  height:100%;
+}
+
+body{
+  background:#eee;
+  font-family:urw-din,sans-serif;
+  font-weight:500;
+  font-style:normal;
+  text-transform:uppercase;
+  line-height:1em;
+
+}
+
+div{
+  display: block;
+}
+
+a{
+  text-decoration: none;
+  pointer-events: auto;
+  color: inherit;
+}
+
+.main {
+    /* background:#eee; */
+    padding: 10px;
+    background-color: #eee;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.bottom .top{
+  align-self: center;
+}
+
+.top{
+  padding: 0 10px;
+  font-size: var(--big-font);
+
+}
+
+.middle{
+margin: 20px;
+padding-top: 4rem;
+padding-bottom: 4rem;
+}
+
+.bottom > a{
+  padding-top: 2rem;
+  display: flex ;
+  flex-direction: column;
+  font-size: var(--medium-font);
+
+}
+
+.item{
+  margin-top: 0rem;
+}
+
+
+.button {
+  font-size: var(--big-font);
+  width: 40%;
+  height: 40%;
+}
+
+.bold{
+  font-weight: 900;
+  font-style: normal;
+}
